@@ -9,7 +9,8 @@ def line(array)
       array.each_with_index do |name, index|
         line_array << ("#{index + 1}. #{name}")
       end
-      puts (line_array.join(" "))
+      line_string = line_array.join(" ")
+      puts line_string
   end
   
 end
