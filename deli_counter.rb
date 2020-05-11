@@ -7,7 +7,7 @@ def line(array)
   else
       line_array = "The line is currently:"
       array.each_with_index do |name, index|
-        line_array << 
+        line_array << ()
       end
   end
   
